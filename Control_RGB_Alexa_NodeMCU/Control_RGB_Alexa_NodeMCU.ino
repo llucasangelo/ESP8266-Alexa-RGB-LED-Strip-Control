@@ -32,7 +32,7 @@ void setup()
   wifiConnected = connectWifi();
   pixels.begin();
   if(wifiConnected){
-    espalexa.addDevice("RGB da Mesa", colorLightChanged);
+    espalexa.addDevice("Turn on RGB", colorLightChanged);
 
     espalexa.begin();
     
@@ -105,3 +105,4 @@ boolean connectWifi(){
   }
   return state;
 }
+
