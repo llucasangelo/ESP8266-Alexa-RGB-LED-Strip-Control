@@ -23,3 +23,7 @@ With this setup, you can:
    ```bash
    git clone https://github.com/yourusername/esp8266-alexa-rgb.git
    cd esp8266-alexa-rgb
+
+## Connection diagram
+
+![Connection diagram](ConnectionDiagram.png)
